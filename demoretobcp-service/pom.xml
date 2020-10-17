@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>demoretobcp</artifactId>
+        <groupId>com.demo</groupId>
+        <version>1.0.0-RELEASE</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.demo.retobcp</groupId>
+    <artifactId>demoretobcp-service</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.demo.retobcp</groupId>
+            <artifactId>demoretobcp-domain</artifactId>
+            <version>1.0.0-RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.demo.retobcp</groupId>
+            <artifactId>demoretobcp-entity</artifactId>
+            <version>1.0.0-RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.demo.retobcp</groupId>
+            <artifactId>demoretobcp-repository</artifactId>
+            <version>1.0.0-RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+
+</project>
